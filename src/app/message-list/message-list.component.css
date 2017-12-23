@@ -1,0 +1,8 @@
+.container-fluid{
+    margin-top: 20px;
+    text-align: center;
+}
+.row{
+    background-color: lightgray;
+    border: solid white;
+}

@@ -1,0 +1,25 @@
+<main class="container-fluid">
+    <!-- Template pour saisir le message -->
+
+    <!-- Template pour afficher les messages persistés -->
+    <div class="row">
+        <section class="tableau col-12">
+            <table class="table table-fixed">
+                <thead>
+                    <tr>
+                        <th>Auteur</th>
+                        <th>Date</th>
+                        <th>Texte</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor='let message of messages'>
+                        <td>{{messages.auteur}}</td>
+                        <td>{{messages.date}}</td>
+                        <td>{{messages.texte}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+</main>
